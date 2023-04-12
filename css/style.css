@@ -7,6 +7,8 @@
     --black-color: #222222;
     --pink-color: #FEC7BE;
     --gray-color: #666666;
+    --yellow-color: #E0BA54;
+
 }
 
 /* body-style */
@@ -61,11 +63,9 @@ a {
     align-items: center;
 }
 
-.navigation-bar .logo{
+.navigation-bar .logo {}
 
-}
-
-.navigation-bar .logo a img{
+.navigation-bar .logo a img {
     width: 100px;
     height: auto;
     object-fit: cover;
@@ -73,11 +73,9 @@ a {
 }
 
 
-.navigation-bar .nav-names{
+.navigation-bar .nav-names {}
 
-}
-
-.navigation-bar .nav-names ul{
+.navigation-bar .nav-names ul {
     display: flex;
     list-style: none;
     margin: 15px 0 0 0;
@@ -87,20 +85,16 @@ a {
     padding: 0 10px;
 }
 
-.navigation-bar .nav-names a{
+.navigation-bar .nav-names a {}
 
-}
+.navigation-bar .nav-names a:hover {}
 
-.navigation-bar .nav-names a:hover{
-
-}
-
-.navigation-bar .icon-btns{
+.navigation-bar .icon-btns {
     float: right;
     margin: 12px 0 0 0;
 }
 
-.navigation-bar .icon-btns a img{
+.navigation-bar .icon-btns a img {
     width: 25px;
     height: auto;
     object-fit: cover;
@@ -109,7 +103,7 @@ a {
 }
 
 /* slider */
-.slider{
+.slider {
 
     background-size: cover;
     width: 100%;
@@ -120,13 +114,13 @@ a {
     align-items: center;
 }
 
-.slider h1{
+.slider h1 {
     font-size: 50px;
     font-weight: 600;
     color: var(--black-color);
 }
 
-.slider p{
+.slider p {
     font-size: 16px;
     font-weight: 500;
     padding-top: 10px;
@@ -137,31 +131,29 @@ a {
     margin-top: 30px;
 }
 
-.slider .slider-btn a{
+.slider .slider-btn a {
     background-color: var(--pink-color);
     padding: 15px 28px;
     font-size: 14px;
     font-weight: 500;
-    color: var(--white-color);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    color: var(--white-color);
 }
 
-.slider .slider-btn a:hover {
-    
-}
+.slider .slider-btn a:hover {}
 
 /* category */
-.category{
+.category {
     padding: 25px 0;
 }
 
-.category h1{
-    
+.category h1 {
+
     text-align: center;
     font-size: 30px;
     font-weight: 600;
 }
 
-.category .category-inner .image{
+.category .category-inner .image {
     margin-top: 25px;
     width: 100%;
     height: 450px;
@@ -170,7 +162,7 @@ a {
     position: relative;
 }
 
-.category .category-inner .image h6{
+.category .category-inner .image h6 {
     position: absolute;
     bottom: 35px;
     left: 40px;
@@ -180,54 +172,52 @@ a {
 }
 
 /* products */
-.products{
+.products {
     padding: 25px 0;
 }
 
 .products h1 {
-    
     text-align: center;
     font-size: 30px;
     font-weight: 600;
 }
 
-.products .product-inner .cards{
-    
+.products .product-inner .cards {
     margin-top: 40px;
 }
 
-.products .product-inner .cards img{
-    
+.products .product-inner .cards img {
+
     width: 100%;
     height: 55vh;
     object-fit: cover;
     object-position: center;
 }
 
-.products .product-inner .cards h5{
+.products .product-inner .cards h5 {
     padding-top: 25px;
     font-size: 17px;
     font-weight: 600;
     color: var(--black-color);
 }
 
-.products .product-inner .cards p{
+.products .product-inner .cards p {
     padding-top: 25px;
     font-size: 14px;
     color: var(--gray-color);
 }
 
-.products .product-inner .cards .prices{
+.products .product-inner .cards .prices {
     margin-top: 12px;
 }
 
-.products .product-inner .cards .prices p{
+.products .product-inner .cards .prices p {
     padding-top: unset;
     font-size: 13px;
     color: var(--gray-color);
 }
 
-.products .product-inner .cards .prices span{
+.products .product-inner .cards .prices span {
     color: var(--black-color);
     font-weight: bolder;
     font-size: 15px;
@@ -235,23 +225,21 @@ a {
 }
 
 .products .product-inner .products-btn {
-    margin-top: 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    margin-top: 30px;
 }
 
-.products .product-inner .products-btn a{
+.products .product-inner .products-btn a {
     background-color: var(--pink-color);
     padding: 15px 30px;
     font-size: 14px;
     font-weight: 500;
-    color: var(--white-color);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    color: var(--white-color);
 }
 
-.products .product-inner .slider-btn a:hover {
-    
-}
+.products .product-inner .slider-btn a:hover {}
 
 /* subscribe */
-.subscribe{
+.subscribe {
     width: 100%;
     height: 45vh;
     display: flex;
@@ -260,23 +248,23 @@ a {
     background: var(--lightblack-color);
 }
 
-.subscribe h4{
+.subscribe h4 {
     color: white;
     text-align: center;
     font-weight: 600;
     font-size: 35px;
 }
 
-.subscribe .form-group{
-   position: relative;
+.subscribe .form-group {
+    position: relative;
 }
 
-.subscribe input{
+.subscribe input {
     width: 100%;
     height: 80px;
 }
 
-.subscribe a{
+.subscribe a {
     background-color: var(--pink-color);
     padding: 15px 30px;
     font-size: 14px;
@@ -287,10 +275,58 @@ a {
     top: 15px;
 }
 
-.subscribe a:hover{
-   
+.subscribe a:hover {}
+
+/* feedback */
+.feedback {
+    padding: 30px 0;
 }
 
+.feedback h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
 
+.feedback .feedback-inner .feedback-card {
+    margin-top: 30px;
+}
 
+.feedback .feedback-card .left-img img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+}
 
+.feedback .feedback-card .right-text p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.feedback .feedback-card .right-text p span {
+    color: var(--yellow-color);
+}
+
+.feedback .feedback-card .right-text .rating {
+    margin-top: 25px;
+}
+
+.feedback .feedback-card .right-text .rating span {
+    font-size: 13px;
+}
+
+.feedback .feedback-card .right-text .rating span.checked {
+    color: var(--yellow-color);
+}
+
+.feedback .feedback-card .right-text .rating p {
+    font-size: 14px;
+    color: var(--black-color);
+}
+
+.feedback .feedback-card .right-text .rating span.names {
+    color: var(--black-color);
+    font-weight: 600;
+}
